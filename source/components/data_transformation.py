@@ -55,9 +55,9 @@ class DataTransformation:
 
             )
 
-            # logging.info("Numerical column standard scaling completed")
+            logging.info("Numerical column standard scaling completed")
 
-            # logging.info("Categorical column encoding completed")
+            logging.info("Categorical column encoding completed")
 
 
             logging.info(f"Categorical columns:{categorical_columns}")
